@@ -1,0 +1,27 @@
+.rating-number {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  background-color: transparent;
+  /* border: 2px solid #E9D100; */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+.rating-number.orange {
+  border: 2px solid #E97E00;
+}
+
+.rating-number.yellow {
+  border: 2px solid #E9D100;
+}
+
+.rating-number.green {
+  border: 2px solid #66E900;
+}

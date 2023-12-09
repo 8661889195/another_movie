@@ -1,0 +1,13 @@
+.movies {
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+  box-sizing: border-box;
+  padding: 23px 35px;
+  max-width: 1500px;
+  min-height: 100vh;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  position: relative  
+}
+
